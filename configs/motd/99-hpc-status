@@ -1,0 +1,9 @@
+#!/bin/bash
+echo ""
+echo " [ Live Slurm Partition & Node Status ]"
+sinfo -o "  %12P %8a %10l %6D %8t %N" 2>/dev/null || echo "  Slurm controller offline"
+echo ""
+echo " [ Shared Storage (/hpc_share) ]"
+df -h /hpc_share | awk 'NR==2 {printf "  Path: /hpc_share     Used: %s / %s (%s)\n", $3, $2, $5}'
+echo "================================================================================"
+echo ""
