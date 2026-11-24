@@ -1,8 +1,8 @@
 # Technical Documentation: 3-Node Virtualized HPC Slurm Cluster
 
-![Screenshot From 2026-11-24 09-27-57.png](Technical%20Documentation%203-Node%20Virtualized%20HPC%20Slu/Screenshot_From_2026-11-24_09-27-57.png)
+![LoggedIn_Display_Banner](images/LoggedIn_Display_Banner.png)
 
-![Screenshot From 2026-11-24 09-31-37.png](Technical%20Documentation%203-Node%20Virtualized%20HPC%20Slu/Screenshot_From_2026-11-24_09-31-37.png)
+![Sample Job](images/Sample_Job.png)
 
 ## 1. Executive Summary & System Architecture
 
